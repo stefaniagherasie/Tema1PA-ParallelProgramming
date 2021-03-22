@@ -26,10 +26,7 @@ difera in functie de legaturile dintre bacnote.
 	- La 500lei se poate ajunge doar de la 200
 Astfel, rezultatul reprezinta suma valorilor de pe ultimul rand din matrice.
 
-Complexitatea este: 	
-
-                      O(log n) - tipul 1
-                      O(n) - tipul 2
+Complexitatea este: 	O(log n) - tipul 1,    O(n) - tipul 2
 
 
 - PROBLEMA 2 - Gigel si Gardul
@@ -64,6 +61,4 @@ j bomboane considerand ce avem la pasul anterior i. Reculenta este:
 Pentru cazul in care j - k < 0, dp[i][j-k] ar fi 0, deci se face break la for.
 Rezultatul pentru M bomboane se afla pe pozitia dp[N-1][M].
 
-Complexitatea este: 
-
-                    O(M*N)
+Complexitatea este:  O(M*N)
