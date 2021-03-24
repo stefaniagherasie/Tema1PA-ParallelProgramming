@@ -4,7 +4,7 @@
 O serie de probleme care se rezolva folosind Programare Dinamica
 
 
-- PROBLEMA 1 - Gigel trezorier la BNR
+#### IMPLEMENTARE PROBLEMA 1 - Gigel trezorier la BNR
 
 Problema presupune gasirea numarului de posibilitati de combinare a unui numar
 de bacnote. Pentru tipul 1, s-a observat ca structura impartirii bacnotelor se 
@@ -19,17 +19,19 @@ primul rand fiind updatat constant. Initial pe primul rand se afla doar valori 1
 (pornim cu cate o nacnota de fiecare tip). Pentru urmatorii pasi, trebuie sa ne 
 uitam inapoi si sa observam de la ce bacnote putem ajunge la cea de x lei. Reculenta
 difera in functie de legaturile dintre bacnote.
-	- La 10lei se poate ajunge de la 50, 200 sau 500
-	- La 50lei se poate ajunge de la 10 sau 200
-	- La 100lei se poate ajunge de la 10, 100 sau 200
-	- La 200lei se poate ajunge de la 50 sau 500
-	- La 500lei se poate ajunge doar de la 200
+
+		- La 10lei se poate ajunge de la 50, 200 sau 500
+		- La 50lei se poate ajunge de la 10 sau 200
+		- La 100lei se poate ajunge de la 10, 100 sau 200
+		- La 200lei se poate ajunge de la 50 sau 500
+		- La 500lei se poate ajunge doar de la 200
+	
 Astfel, rezultatul reprezinta suma valorilor de pe ultimul rand din matrice.
 
 Complexitatea este: 	O(log n) - tipul 1,    O(n) - tipul 2
 
 
-- PROBLEMA 2 - Gigel si Gardul
+#### IMPLEMENTARE PROBLEMA 2 - Gigel si Gardul
 
 Problema presupune gasirea numarului de bucati de gard redundante. S-a creeat clasa
 Piece care reprezinta o bucata de gard, vazuta ca un interval. Intervalele se 
@@ -45,7 +47,7 @@ este O(n^2).
 
 
 
-- PROBLEMA 2 - Gigel Bombonel
+#### IMPLEMENTARE PROBLEMA 3 - Gigel Bombonel
 
 Problema consta in gasirea numarului d moduri in care putem sa impartim M bomboane
 la N studenti. S-a creat clasa Interval care retine intervalul de bomboane al fiecarui
