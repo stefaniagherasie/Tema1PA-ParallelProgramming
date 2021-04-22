@@ -31,7 +31,7 @@ Astfel, rezultatul reprezinta suma valorilor de pe ultimul rand din matrice.
 **Complexitatea** este: 	
 - `O(log n)` - tipul 1
 - `O(n)` - tipul 2
-
+<br>
 
 #### IMPLEMENTARE PROBLEMA 2 - Gigel si Gardul
 
@@ -46,7 +46,7 @@ Se obtine astfel numarul de bucati redundante.
 
 **Complexitatea** difera in functie de natura intervalelor. In worst-case, complexitatea
 este `O(n^2)`.
-
+<br>
 
 #### IMPLEMENTARE PROBLEMA 3 - Gigel Bombonel
 
