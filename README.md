@@ -46,7 +46,7 @@ Se obtine astfel numarul de bucati redundante.
 
 **Complexitatea** difera in functie de natura intervalelor. In worst-case, complexitatea
 este `O(n^2)`.
-<br>
+<br><br>
 
 #### IMPLEMENTARE PROBLEMA 3 - Gigel Bombonel
 
