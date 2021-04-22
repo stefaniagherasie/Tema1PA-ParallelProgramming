@@ -26,10 +26,11 @@ difera in functie de legaturile dintre bacnote.
 		- La 100lei se poate ajunge de la 10, 100 sau 200
 		- La 200lei se poate ajunge de la 50 sau 500
 		- La 500lei se poate ajunge doar de la 200
-	
 Astfel, rezultatul reprezinta suma valorilor de pe ultimul rand din matrice.
 
-Complexitatea este: 	O(log n) - tipul 1,    O(n) - tipul 2
+**Complexitatea** este: 	
+- `O(log n)` - tipul 1
+- `O(n)` - tipul 2
 
 
 #### IMPLEMENTARE PROBLEMA 2 - Gigel si Gardul
@@ -43,8 +44,8 @@ cu cele care urmeaza dupa el si se elimina cele redundante, oprindu-se cand se
 gaseste un interval care are start-ul dupa end-ul intervalului curent.
 Se obtine astfel numarul de bucati redundante.
 
-Complexitatea difera in functie de natura intervalelor. In worst-case, complexitatea
-este O(n^2).
+**Complexitatea** difera in functie de natura intervalelor. In worst-case, complexitatea
+este `O(n^2)`.
 
 
 #### IMPLEMENTARE PROBLEMA 3 - Gigel Bombonel
@@ -62,4 +63,4 @@ Se foloseste o reculenta pentru a calcula la pasul `i+1` in cate moduri se pot i
 			k este fiecare numar din intervalul persoanei i.
 Rezultatul pentru M bomboane se afla pe pozitia `dp[N-1][M]`.
 
-Complexitatea este:  O(M*N)
+**Complexitatea** este:  `O(M*N)`.
