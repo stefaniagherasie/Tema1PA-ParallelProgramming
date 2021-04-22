@@ -31,6 +31,7 @@ Astfel, rezultatul reprezinta suma valorilor de pe ultimul rand din matrice.
 **Complexitatea** este: 	
 - `O(log n)` - tipul 1
 - `O(n)` - tipul 2
+<br>
 
 #### ᐅ IMPLEMENTARE PROBLEMA 2 - Gigel si Gardul
 
