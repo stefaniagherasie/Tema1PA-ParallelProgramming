@@ -5,7 +5,7 @@
 O serie de probleme care se rezolva folosind Programare Dinamica
 <br>
 
-#### ᐅ IMPLEMENTARE PROBLEMA 1 - Gigel trezorier la BNR
+## Problema 1 - Gigel trezorier la BNR
 
 Problema presupune gasirea numarului de posibilitati de combinare a unui numar
 de bacnote. 
@@ -34,7 +34,7 @@ Astfel, rezultatul reprezinta suma valorilor de pe ultimul rand din matrice.
 - `O(n)` - tipul 2
 <br>
 
-#### ᐅ IMPLEMENTARE PROBLEMA 2 - Gigel si Gardul
+## Problema 2 - Gigel si Gardul
 
 Problema presupune gasirea numarului de bucati de gard redundante. S-a creeat clasa
 `Piece` care reprezinta o bucata de gard, vazuta ca un interval. Intervalele se 
@@ -49,7 +49,7 @@ Se obtine astfel numarul de bucati redundante.
 este `O(n^2)`.
 <br><br>
 
-#### ᐅ IMPLEMENTARE PROBLEMA 3 - Gigel Bombonel
+## Problema 3 - Gigel Bombonel
 
 Problema consta in gasirea numarului de moduri in care putem sa impartim M bomboane
 la N studenti. S-a creat clasa `Interval` care retine intervalul de bomboane al fiecarui
